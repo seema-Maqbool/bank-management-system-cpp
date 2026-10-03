@@ -1,0 +1,15 @@
+# build output
+bank
+test_runner
+*.exe
+*.o
+
+# runtime data (accounts, PIN hashes, transactions) - never upload
+data/
+accounts.txt
+transactions.txt
+admin.txt
+
+# editors
+.vscode/
+.idea/
